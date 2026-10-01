@@ -38,8 +38,13 @@ strong {
     color:rgb(176, 42, 76);
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 .topo {
-    background-color:aqua;
+    background-color:rgb(242, 203, 254);
     text-align: center;
     padding: 16px;
 }
@@ -48,4 +53,75 @@ strong {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     color:blanchedalmond;
+}
+
+.sobre,
+.produtos,
+.processo {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.sobre {
+    background-color:rgb(253, 248, 180);
+}
+
+.produtos {
+    background-color: #F4A7B9;
+}
+
+.processo {
+    background-color: beige;
+}
+
+.card {
+    background-color: #FFF4EE;
+    max-width: 360px;
+    margin: 24px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.banner {
+    background-image: url("../imagens/banner-doce-encanto.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+}
+
+.banner-texto {
+    max-width: 420;
+    padding: 24px;
+    background-color:beige;
+}
+
+.banner-texto h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    color:black;
+    margin-top: 0;
+}
+
+.banner-texto p {
+    color:aquamarine;
+    margin-bottom: 0;
+}
+
+.banner-texto strong {
+    color:black;
+}
+
+#rodape {
+    background-color:black;
+    color:blue;
+    text-align: center;
+    padding: 24px 20px;
 }
